@@ -1,0 +1,10 @@
+# .gitignore w slam_kalman/
+build/
+install/
+log/
+*.swp
+*.o
+*.so
+*.a
+__pycache__/
+*.pyc
