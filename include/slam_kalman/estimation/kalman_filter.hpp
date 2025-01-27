@@ -13,8 +13,8 @@ public:
         const Eigen::MatrixXd& P
     );
 
-    void predict(const Eigen::VectorXd& u);
-    void update(const Eigen::VectorXd& z);
+    void Predict(const Eigen::VectorXd& u);
+    void Update(const Eigen::VectorXd& z);
     
     Eigen::VectorXd state() const { return x_; }
 
